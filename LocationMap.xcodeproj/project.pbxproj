@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		C746524827910E32005BED96 /* LocationMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746524727910E32005BED96 /* LocationMapApp.swift */; };
 		C746524A27910E32005BED96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C746524927910E32005BED96 /* ContentView.swift */; };
-		C746524C27910E34005BED96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C746524B27910E34005BED96 /* Assets.xcassets */; };
 		C746524F27910E34005BED96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C746524E27910E34005BED96 /* Preview Assets.xcassets */; };
+		C746525627992311005BED96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C746525527992311005BED96 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C746524427910E32005BED96 /* LocationMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C746524727910E32005BED96 /* LocationMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapApp.swift; sourceTree = "<group>"; };
 		C746524927910E32005BED96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C746524B27910E34005BED96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C746524E27910E34005BED96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C746525527992311005BED96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				C746524727910E32005BED96 /* LocationMapApp.swift */,
+				C746525527992311005BED96 /* Assets.xcassets */,
 				C746524927910E32005BED96 /* ContentView.swift */,
-				C746524B27910E34005BED96 /* Assets.xcassets */,
 				C746524D27910E34005BED96 /* Preview Content */,
 			);
 			path = LocationMap;
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C746525627992311005BED96 /* Assets.xcassets in Resources */,
 				C746524F27910E34005BED96 /* Preview Assets.xcassets in Resources */,
-				C746524C27910E34005BED96 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

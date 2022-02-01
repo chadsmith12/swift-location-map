@@ -15,6 +15,10 @@ struct LocationDetailView: View {
         MKCoordinateRegion(center: location.coordinates, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
     }
     
+    private var isForIPad: Bool {
+        UIDevice.current.userInterfaceIdiom == .pad
+    }
+    
     private var url: URL? {
         URL(string: self.location.link)
     }
@@ -59,7 +63,7 @@ extension LocationDetailView {
                 Image(imageName)
                     .resizable()
                     .scaledToFill()
-                    .frame(width: UIScreen.main.bounds.width)
+                    .frame(width: isForIPad ? nil : UIScreen.main.bounds.width)
                     .clipped()
             }
         }

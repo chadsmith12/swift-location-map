@@ -71,7 +71,7 @@ extension LocationPreviewView  {
     
     private var learnMoreButton: some View {
         Button(action: {
-            
+            vm.selectedLocation = location
         }) {
             Text("Learn More")
                 .font(.headline)
